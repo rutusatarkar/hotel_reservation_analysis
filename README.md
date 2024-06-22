@@ -128,6 +128,9 @@ GROUP BY
 ORDER BY
 	no_of_weekend,
     number_of_week;
+
+
+    
 -- 14)for reservations involving children, what is the most common type, and what is the average price for that room type?
 SELECT room_type_reserved, 
 COUNT(*) AS count,
