@@ -4,7 +4,7 @@ DESCRIBE hotel;
 
 # =================================
 
-# 1)total number of reserversation in dataset
+### 1)total number of reserversation in dataset
 
 
 SELECT COUNT(Booking_ID) AS 'total no of reservation' FROM hotel;
